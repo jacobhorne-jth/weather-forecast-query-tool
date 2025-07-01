@@ -1,6 +1,8 @@
 # weather-forecast-query-tool
 A weather forecast tool allowing the user to query real-time weather data using live API calls.
 
+<br>
+
 **Overview**
 
 This Python project is a command-line tool that retrieves and processes weather forecast data for a specified location. It integrates geocoding and weather APIs to answer custom weather-related queries such as maximum temperature, minimum humidity, or wind speed over a configurable time horizon.
@@ -16,6 +18,8 @@ The project demonstrates how to:
 - Use object-oriented design with multiple classes encapsulating data sources and query logic.
 
 - Gracefully handle failures due to API errors or unavailable data sources.
+
+  <br>
 
 **Features**
 
@@ -66,6 +70,8 @@ The project demonstrates how to:
 - Attribution Compliance
 
     Display attribution messages for data sources used during program execution.
+
+<br>
 
 **How to Run**
 
