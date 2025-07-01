@@ -148,15 +148,15 @@ FORECAST 33.654532225/N 117.83296842499999/W
 
 In case of errors (e.g., network issues or API failure), a clear FAILED report is printed describing the problem.    
 
+<br>
 
+Attribution
 
-_Attribution
-_
 When live APIs are used, the program will print attribution messages:
 
-OpenStreetMap / Nominatim (for geocoding)
+- OpenStreetMap / Nominatim (for geocoding)
 
-National Weather Service (for weather forecasts)    
+- National Weather Service (for weather forecasts)    
 
 <br>
 
@@ -184,6 +184,11 @@ output.py               # Output formatting and reporting
 - File Testing: Use local JSON files for testing without relying on live API responses.
 
 - No Third-Party Libraries: All functionality is implemented using the Python standard library.
+
+
+<br>
+
+<br>
 
 License
 This project is intended for educational use.
