@@ -111,13 +111,14 @@ REVERSE NOMINATIM
 _Press Enter after each line._
 
 
-Example Command
 
 You can pipe input from a file:
 
 python3 weatherforecastmain.py < example_input.txt
 
+
 Or enter lines interactively as shown above.
+
 
 Example Output
 
@@ -140,6 +141,7 @@ FORECAST 33.654532225/N 117.83296842499999/W
 
 In case of errors (e.g., network issues or API failure), a clear FAILED report is printed describing the problem.
 
+
 Attribution
 
 When live APIs are used, the program will print attribution messages:
@@ -147,6 +149,7 @@ When live APIs are used, the program will print attribution messages:
 OpenStreetMap / Nominatim (for geocoding)
 
 National Weather Service (for weather forecasts)
+
 
 Project Structure
 weatherforecastmain.py             # Main entry point
