@@ -94,6 +94,8 @@ python3 weatherforecastmain.py
 
 - Sentinel line indicating end of queries
 
+
+
 Here is an example of an input sequence (typed interactively or piped in):
 
 TARGET NOMINATIM Bren Hall, Irvine, CA
@@ -112,12 +114,15 @@ _Press Enter after each line._
 
 
 
+
 You can pipe input from a file:
 
 python3 weatherforecastmain.py < example_input.txt
 
 
+
 Or enter lines interactively as shown above.
+
 
 
 Example Output
@@ -139,7 +144,9 @@ FORECAST 33.654532225/N 117.83296842499999/W
 **Real-time weather data from National Weather Service, United States Department of Commerce
 
 
+
 In case of errors (e.g., network issues or API failure), a clear FAILED report is printed describing the problem.
+
 
 
 Attribution
@@ -151,13 +158,23 @@ OpenStreetMap / Nominatim (for geocoding)
 National Weather Service (for weather forecasts)
 
 
+
 Project Structure
+
 weatherforecastmain.py             # Main entry point
+
 forward_geocode.py      # Classes for forward geocoding
+
 reverse_geocode.py      # Classes for reverse geocoding
+
 weather_data.py         # Classes for fetching weather forecasts
+
 weather_query.py        # Classes for computing query results
+
 output.py               # Output formatting and reporting
+
+
+
 
 **Notes**
 API Rate Limits: Nominatim requires a 1-second pause between requests. The program enforces this automatically.
