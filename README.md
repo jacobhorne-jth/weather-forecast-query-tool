@@ -110,18 +110,18 @@ NO MORE QUERIES
 
 REVERSE NOMINATIM
 
-_Press Enter after each line._
+_Press Enter after each line._    
 
 
 
 
 You can pipe input from a file:
 
-python3 weatherforecastmain.py < example_input.txt
+python3 weatherforecastmain.py < example_input.txt    
 
 
 
-Or enter lines interactively as shown above.
+Or enter lines interactively as shown above.    
 
 
 
@@ -141,11 +141,11 @@ FORECAST 33.654532225/N 117.83296842499999/W
 
 **Reverse geocoding data from OpenStreetMap
 
-**Real-time weather data from National Weather Service, United States Department of Commerce
+**Real-time weather data from National Weather Service, United States Department of Commerce    
 
 
 
-In case of errors (e.g., network issues or API failure), a clear FAILED report is printed describing the problem.
+In case of errors (e.g., network issues or API failure), a clear FAILED report is printed describing the problem.    
 
 
 
@@ -155,7 +155,7 @@ When live APIs are used, the program will print attribution messages:
 
 OpenStreetMap / Nominatim (for geocoding)
 
-National Weather Service (for weather forecasts)
+National Weather Service (for weather forecasts)    
 
 
 
@@ -171,7 +171,7 @@ weather_data.py         # Classes for fetching weather forecasts
 
 weather_query.py        # Classes for computing query results
 
-output.py               # Output formatting and reporting
+output.py               # Output formatting and reporting    
 
 
 
