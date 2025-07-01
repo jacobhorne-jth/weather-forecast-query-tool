@@ -20,7 +20,8 @@ The project demonstrates how to:
 **Features**
 
 - Forward Geocoding
-    Convert a human-readable place (e.g., Bren Hall, Irvine, CA) into geographic coordinates using Nominatim.
+
+  Convert a human-readable place (e.g., Bren Hall, Irvine, CA) into geographic coordinates using Nominatim.
 
 - Reverse Geocoding
     Translate a forecast location’s coordinates back into a descriptive address.
