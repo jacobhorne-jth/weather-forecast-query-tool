@@ -76,6 +76,8 @@ _Prerequisites_
 
 - Note: This project intentionally uses only Python’s standard library (e.g., urllib, json)—no third-party packages are required.
 
+<br>
+
 _Running the Program_
 
 Run the main script:
@@ -94,7 +96,7 @@ python3 weatherforecastmain.py
 
 - Sentinel line indicating end of queries
 
-
+<br>
 
 Here is an example of an input sequence (typed interactively or piped in):
 
@@ -112,18 +114,17 @@ REVERSE NOMINATIM
 
 _Press Enter after each line._    
 
-
-
+<br>
 
 You can pipe input from a file:
 
 python3 weatherforecastmain.py < example_input.txt    
 
-
+<br>
 
 Or enter lines interactively as shown above.    
 
-
+<br>
 
 Example Output
 
@@ -157,7 +158,7 @@ OpenStreetMap / Nominatim (for geocoding)
 
 National Weather Service (for weather forecasts)    
 
-
+<br>
 
 **Project Structure**
 
@@ -173,15 +174,16 @@ weather_query.py        # Classes for computing query results
 
 output.py               # Output formatting and reporting    
 
+<br>
 
 **Notes**
-API Rate Limits: Nominatim requires a 1-second pause between requests. The program enforces this automatically.
+- API Rate Limits: Nominatim requires a 1-second pause between requests. The program enforces this automatically.
 
-User-Agent and Referer Headers: Required headers are set to comply with API terms of service.
+- User-Agent and Referer Headers: Required headers are set to comply with API terms of service.
 
-File Testing: Use local JSON files for testing without relying on live API responses.
+- File Testing: Use local JSON files for testing without relying on live API responses.
 
-No Third-Party Libraries: All functionality is implemented using the Python standard library.
+- No Third-Party Libraries: All functionality is implemented using the Python standard library.
 
 License
 This project is intended for educational use.
