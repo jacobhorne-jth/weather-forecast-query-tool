@@ -149,8 +149,8 @@ In case of errors (e.g., network issues or API failure), a clear FAILED report i
 
 
 
-Attribution
-
+_Attribution
+_
 When live APIs are used, the program will print attribution messages:
 
 OpenStreetMap / Nominatim (for geocoding)
@@ -159,7 +159,7 @@ National Weather Service (for weather forecasts)
 
 
 
-Project Structure
+**Project Structure**
 
 weatherforecastmain.py             # Main entry point
 
@@ -172,8 +172,6 @@ weather_data.py         # Classes for fetching weather forecasts
 weather_query.py        # Classes for computing query results
 
 output.py               # Output formatting and reporting    
-
-
 
 
 **Notes**
