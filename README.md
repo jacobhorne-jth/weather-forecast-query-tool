@@ -2,6 +2,7 @@
 A weather forecast tool allowing the user to query real-time weather data using live API calls.
 
 **Overview**
+
 This Python project is a command-line tool that retrieves and processes weather forecast data for a specified location. It integrates geocoding and weather APIs to answer custom weather-related queries such as maximum temperature, minimum humidity, or wind speed over a configurable time horizon.
 
 The project demonstrates how to:
@@ -17,6 +18,7 @@ The project demonstrates how to:
 - Gracefully handle failures due to API errors or unavailable data sources.
 
 **Features**
+
 - Forward Geocoding
     Convert a human-readable place (e.g., Bren Hall, Irvine, CA) into geographic coordinates using Nominatim.
 
